@@ -10,9 +10,9 @@ function ContactLocation() {
     },
     {
       iframeSrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.824856476871!2d78.42617557584332!3d17.46809500047378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb917445711053%3A0x88def353aa1d9ee9!2sThe%20Value%20Drive!5e0!3m2!1sen!2sin!4v1740823240863!5m2!1sen!2sin",
-      heading: "Second Location",
-      describe: "Another City, State",
+        "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3806.7444879572836!2d78.43002697516579!3d17.42404558346945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDI1JzI2LjYiTiA3OMKwMjUnNTcuNCJF!5e0!3m2!1sen!2sus!4v1742022203803!5m2!1sen!2sus",
+      heading: "MG Motor Raam4Wheeler Showroom",
+      describe: "Road Number 2, opposite Hotel Park Hyatt, BNR Colony, Venkat Nagar, Banjara Hills, Hyderabad, Telangana",
     },
     // Add more locations as needed
   ];

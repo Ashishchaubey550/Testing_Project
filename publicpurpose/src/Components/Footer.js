@@ -27,7 +27,7 @@ function Footer() {
           </div>
           <div className="flex flex-col text-left  text-white">
             <h1>Mon-Sat</h1>
-            <p>7:00 AM - 6:00 PM</p>
+            <p>10:00 AM - 7:00 PM</p>
           </div>
         </div>
 

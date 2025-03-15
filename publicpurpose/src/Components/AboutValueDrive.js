@@ -1,5 +1,5 @@
 import React from "react";
-import Contactusbg from "../images/ContactUsbg.JPG";
+import Contactusbg from "../images/Team/RamGroup.jpg";
 
 const AboutValueDrive = () => {
   return (

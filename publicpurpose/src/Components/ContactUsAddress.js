@@ -60,7 +60,7 @@ function ContactUsAddress() {
           <i className="ri-time-line text-4xl sm:text-5xl p-3 rounded-full bg-red-500 text-white"></i>
           <h1 className="font-bold text-lg sm:text-xl mt-2">Opening Hours</h1>
           <p className="text-sm sm:text-base font-semibold text-center">
-            Mon - Sun: 9 AM - 6 PM<br />
+            Mon - Sun: 10 AM - 7 PM<br />
           </p>
         </div>
       </div>

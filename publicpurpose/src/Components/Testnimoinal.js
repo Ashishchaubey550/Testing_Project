@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Carousel } from '@mantine/carousel';
 import { useInterval } from '@mantine/hooks';
 import { IconArrowLeft, IconArrowRight } from '@tabler/icons-react';
-import logo from '../images/logo.png';
+import logo from '../images/Team/person1.avif';
 import test from '../Data/Testnomial.json';
 
 function Testnimoinal() {
