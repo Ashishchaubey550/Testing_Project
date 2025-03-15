@@ -15,8 +15,6 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-const cors = require("cors");
-
 const allowedOrigins = [
   "https://publicwebsite-pied.vercel.app",
   "https://adminpanel-ashen.vercel.app"
