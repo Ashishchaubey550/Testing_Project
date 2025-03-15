@@ -15,9 +15,28 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors(
-  
-));
+const cors = require("cors");
+
+const allowedOrigins = [
+  "https://publicwebsite-pied.vercel.app",
+  "https://adminpanel-ashen.vercel.app"
+];
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+    credentials: true, // Enable if using cookies or authentication
+    methods: ["GET", "POST", "PUT", "DELETE"], // Allow these methods
+    allowedHeaders: ["Content-Type", "Authorization"], // Customize if needed
+  })
+);
+
 app.use('/uploads', express.static(path.join(__dirname, 'uploads'))); // Serve static files from "uploads"
 
 // MongoDB Connection
